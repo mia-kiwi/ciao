@@ -96,6 +96,15 @@ a[href]:visited {
     gap: 8px;
 }
 
+footer {
+    user-select: none;
+    filter: opacity(75%);
+    position: fixed;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @keyframes Animation {
     0% {
         background-position: 0% 0%;
