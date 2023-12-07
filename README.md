@@ -1,6 +1,2 @@
-# CIAO
-A single-page HTML/CSS static project to display some info about me.
-
----
-
-Just a place for me to put some info on where to find me and about me in general.
+# About
+**ciao.mia.kiwi** is a simple HTML/CSS static page to display information about you. Your profile picture, your name, your socials... _You name it, you can add it!_
