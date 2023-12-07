@@ -1,0 +1,55 @@
+html {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+
+    background: var(--background);
+    background: -moz-linear-gradient(45deg, var(--background) 50%, var(--primary-90) 100%);
+    background: -webkit-linear-gradient(45deg, var(--background) 50%, var(--primary-90) 100%);
+    background: linear-gradient(45deg, var(--background) 50%, var(--primary-90) 100%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease-in-out infinite;
+}
+
+i.fa-bg {
+    min-width: 2em;
+}
+
+a[href] {
+    color: var(--secondary)
+}
+
+a[href]:visited {
+    color: var(--secondary-dark)
+}
+
+#card,
+#pfp {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+@keyframes Animation {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 0%
+    }
+
+    100% {
+        background-position: 0% 0%
+    }
+}
